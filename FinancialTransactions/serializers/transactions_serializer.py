@@ -1,4 +1,3 @@
-from django.urls import path, include
 from rest_framework import  serializers
 
 from FinancialTransactions.models.entry_model import Entry

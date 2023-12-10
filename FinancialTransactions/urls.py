@@ -8,6 +8,7 @@ from FinancialTransactions import viewsets
 
 router = routers.SimpleRouter()
 router.register(r"entry", viewsets.EntryViewSet, basename="entry")
+router.register(r"expense", viewsets.ExpenseViewSet, basename="expense")
 
 
 urlpatterns = [
